@@ -100,3 +100,14 @@ body {
     height: 100%;
     transform: translate(-50%, -50%) rotate(180deg);
 }
+
+.btn7::before {
+    width: 0;
+    height: 100%;
+}
+
+.btn7:hover::before {
+    width: 50%;
+    height: 490%;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
